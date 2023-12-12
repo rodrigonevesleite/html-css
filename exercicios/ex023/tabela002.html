@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Tabelas grandes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot {
+            background-color: gray;
+        }
+        .num {
+            text-align: right;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: rgb(190, 190, 190);
+        }
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grande</h1>
+    <table>
+        <caption>Populaçao dos estados</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">Populaçao</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sao paulo</td>
+                <td class="num">40.919.049</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">39.524.025</td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">25.145.201</td>
+            </tr>
+            <tr>
+                <td>bahia</td>
+                <td class="num">14.141.626</td>
+            </tr>
+            <tr>
+                <td>parana</td>
+                <td class="num">11.444.380</td>
+            </tr>
+            <tr>
+                <td>pernambuco</td>
+                <td class="num">9.058.93</td>
+            </tr>
+            <tr>
+                <td>ceara</td>
+                <td class="num">8.795.254</td>
+            </tr>
+            <tr>
+                <td>para</td>
+                <td class="num">8.121.452</td>
+            </tr>
+            <tr>
+                <td>santa catarina</td>
+                <td class="num">2,158,451</td>
+            </tr>
+            <tr>
+                <td>goias</td>
+                <td class="num">12.125.412</td>
+            </tr>
+            <tr>
+                <td>maranha</td>
+                <td class="num">14.254.021</td>
+            </tr>
+            <tr>
+                <td>paraiba</td>
+                <td class="num">12.048.412</td>
+            </tr>
+            <tr>
+                <td>amazonas</td>
+                <td class="num">25.145.251</td>
+            </tr>
+            <tr>
+                <td>amazonas</td>
+                <td class="num">25.145.251</td>
+            </tr>
+            <tr>
+                <td>amazonas</td>
+                <td class="num">25.145.251</td>
+            </tr>
+            <tr>
+                <td>amazonas</td>
+                <td class="num">25.145.251</td>
+            </tr>
+            <tr>
+                <td>amazonas</td>
+                <td class="num">25.145.251</td>
+            </tr>
+            <tr>
+                <td>amazonas</td>
+                <td class="num">25.145.251</td>
+            </tr>
+            <tr>
+                <td>amazonas</td>
+                <td class="num">25.145.251</td>
+            </tr>
+            <tr>
+                <td>amazonas</td>
+                <td class="num">25.145.251</td>
+            </tr>
+            <tr>
+                <td>amazonas</td>
+                <td class="num">25.145.251</td>
+            </tr>
+            <tr>
+                <td>amazonas</td>
+                <td class="num">25.145.251</td>
+            </tr>
+            <tr>
+                <td>amazonas</td>
+                <td class="num">25.145.251</td>
+            </tr>
+            <tr>
+                <td>amazonas</td>
+                <td class="num">25.145.251</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td class="num"><strong>128.458.412</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
